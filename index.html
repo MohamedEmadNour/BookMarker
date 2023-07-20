@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Fonts/Lugrasimo-Regular.ttf">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/anim.css">
+    <link rel="stylesheet" href="./Icon/bootstrap-icons.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <title>BookMark</title>
+ 
+</head>
+<body data-spy="scroll" data-target="#scroll-spy">
+
+
+<section>
+  <div class="container p-5">
+    <div class="container text-center">
+      <h1>BookMarker</h1>
+    </div>
+      <div class="container text-center mb-3">
+        <div>
+          <h2>BookMark your favorite sites</h2>
+        </div>
+      </div>
+
+    <div>
+    <!-- Search icon to open search input -->
+    <div class="input-group mb-3">
+      <button id="searchIcon" class="btn btn-secondary" type="button">
+        <i class="bi bi-search"></i>
+      </button>
+      <input type="text" id="searchInput" class="form-control" placeholder="Search" style="display: none;">
+    </div>
+    <!-- Form to capture user input -->
+    <form id="websiteForm" class="mb-4">
+      <div class="row">
+        <div class="col-12 my-2">
+          <input type="text" id="siteName" class="form-control" placeholder="Site Name" required>
+        </div>
+        <div class="col-12 my-2">
+          <input type="url" id="siteUrl" class="form-control" placeholder="Site URL" required>
+        </div>
+        <div class="col text-center">
+          <button type="submit" id="submitButton" class="btn btn-primary">Submit</button>
+        </div>
+      </div>
+    </form>
+
+    <!-- Table to display data -->
+    <table id="websiteTable" class="table table-striped text-center">
+      <thead>
+        <tr>
+          <th>Index</th>
+          <th>Website Name</th>
+          <th>Added Date</th>
+          <th>Visit</th>
+          <th>Delete</th>
+          <th>Update</th>
+        </tr>
+      </thead>
+      <tbody></tbody>
+    </table>
+  </div>
+  </div>
+  </div>
+  </div>
+</div>
+</section>
+
+<section>
+  <div class="container-fluid">
+    <div class="container mx-auto text-center">
+      <div class="position-relative">
+        <div class="watermark">Eng Mohamed Emad</div>
+      </div>
+      <h4 class="text-white">Welcome </h4>
+      <p class="text-white">BookMark your favorite sites.</p>
+    </div>
+  </div>
+</section>
+
+<!--  -->
+  
+
+
+
+
+  
+
+    
+
+
+
+        
+
+    
+
+
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/js.js"></script>
+</body>
+</html>

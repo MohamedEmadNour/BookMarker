@@ -1,0 +1,81 @@
+    body {
+        background-image: url(../Img/pexels-hasan-albari-1229861.jpg);
+        background-size: cover ;
+        background-repeat: repeat-y;
+        background-color: rgb(219, 236, 233);
+    }
+    h1 {
+        font-family: 'Lugrasimo', cursive;
+        background: linear-gradient(to left, #ff0000, #00ff00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+    label {
+        font-weight: bold;
+    }
+
+    h2 {
+        background: linear-gradient(to right, #ff0000, #00ff00);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    h2::before {
+        content: "\f02e";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-right: 0.5em;
+    }
+    
+    h2::after {
+        content: "\f02e";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        margin-left: 0.5em;
+    }
+
+
+
+
+    a:hover {
+        color: rgb(0, 0, 0);
+        background-color: #3f3852 !important;
+    }
+    .icon-eye {
+        color: #ffffff;
+    }
+    .icon-delete {
+        color: #ffffff;
+    }
+
+
+    .filter-item {
+        display: none;
+    }
+    
+    .show {
+        display: block;
+    }
+    
+    .active {
+        background-color: #007bff;
+        color: #fff;
+    }
+    
+    
+.watermark {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    pointer-events: none;
+    font-size: 3rem;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.2);
+    transform: rotate(-45deg) ;
+  }
+
